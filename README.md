@@ -1,5 +1,13 @@
 # airport
 
+注意：airport 命令在 macOS Sonoma 14.4 中被废弃。苹果公司在这版系统中移除了该命令，并建议用户使用 wdutil 命令作为替代方案。
+
+```bash
+(base) ➜  airport git:(main) airport 
+WARNING: The airport command line tool is deprecated and will be removed in a future release.
+For diagnosing Wi-Fi related issues, use the Wireless Diagnostics app or wdutil command line tool.
+```
+
 # 一、airport是啥？
 
 airport是MAC自带的无线网络管理工具，可以通过这个工具加入无线网络、创建热点、配置无线安全设置等。
